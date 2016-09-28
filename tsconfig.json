@@ -1,0 +1,12 @@
+{
+	"compilerOptions": {
+		"target": "es5",
+		"noImplicitAny": true,
+		"removeComments": true,
+		"outFile": "dist/vlist.min.js",
+		"inlineSourceMap": true
+	},
+	"files": [
+		"lib/vlist.ts"
+	]
+}

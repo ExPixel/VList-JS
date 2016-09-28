@@ -1,0 +1,16 @@
+{
+  "name": "vlist-js",
+  "version": "1.0.0",
+  "description": "Virtual list for javascript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "watch": "tsc -w"
+  },
+  "author": "Adolph C.",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^2.0.3"
+  }
+}
