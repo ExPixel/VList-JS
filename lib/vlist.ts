@@ -106,7 +106,6 @@ module VList {
 		private elementCreator = document.createElement('div');
 
 		constructor(options: VListOptions) {
-			console.log(options);
 			if (options.templateRender && !options.template)
 				throw Error("A template string must be provided when also providing a template render function.");
 			if (options.templateRender && options.render)
